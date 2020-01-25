@@ -19,8 +19,8 @@ class Router
 
       case user_input
       when 1 then @controller.list
-      when 2 then @controller.add
-      when 3 then @controller.remove
+      when 2 then @controller.create
+      when 3 then @controller.destroy
       when 0 then @running = false
       end
     end

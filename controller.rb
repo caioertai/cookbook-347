@@ -6,7 +6,7 @@ class Controller
     @view = View.new
   end
 
-  def remove
+  def destroy
     # Ask COOKBOOK for all the recipes
     recipes = @cookbook.all
     # Ask VIEW to display the recipes
@@ -17,7 +17,7 @@ class Controller
     @cookbook.remove_recipe(recipe_index)
   end
 
-  def add
+  def create
     # Ask VIEW to ask the user for a recipe name
     name = @view.ask_for("name")
     # Ask VIEW to ask the user for a recipe description
