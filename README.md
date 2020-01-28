@@ -1,3 +1,11 @@
+## New Features
+- [x] Users should see recipe's prep time
+- [x] Users should be able to specify a recipe's prep time
+- [x] Users should be able to mark recipes as done
+- [ ] Users be able to get recipes suggestions from the web
+<!-- ... -->
+- [ ] Users should see recipe's difficulty
+
 ## Background and Objectives
 
 You are now going to code a Cookbook application that manages recipes.
