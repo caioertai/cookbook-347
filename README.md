@@ -2,7 +2,7 @@
 - [x] Users should see recipe's prep time
 - [x] Users should be able to specify a recipe's prep time
 - [x] Users should be able to mark recipes as done
-- [ ] Users be able to get recipes suggestions from the web
+- [x] Users be able to get recipes suggestions from the web
 <!-- ... -->
 - [ ] Users should see recipe's difficulty
 

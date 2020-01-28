@@ -13,6 +13,7 @@ class Router
       puts "2. Add a recipe"
       puts "3. Remove a recipe"
       puts "4. To mark a recipe as done"
+      puts "5. Import recipe suggestions from BBC Good Food"
       puts "0. To quit"
 
       print "> "
@@ -24,6 +25,7 @@ class Router
       when 2 then @controller.create
       when 3 then @controller.destroy
       when 4 then @controller.mark_a_recipe
+      when 5 then @controller.import_from_the_web
       when 0 then @running = false
       end
     end
